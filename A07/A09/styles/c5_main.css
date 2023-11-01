@@ -4,6 +4,13 @@
 }
 
 /* the styles for the elements */
+* {
+}
+
+header {
+	bottom-border: 3px solid #931420;
+	padding: 0 0 1.5em 2em;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
@@ -22,15 +29,14 @@ a:focus, a:hover {
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
 }
 header img {
 	float: left;
+	padding: 30px 30px 0 0;
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
@@ -38,10 +44,13 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding: 30px 30px;
 }
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
+	top-border: 3px solid #931420;
+	bottom-border: 3px solid #931420;
 }
 main h2 {
 	color: var(--global-color-1);
@@ -70,6 +79,10 @@ main li {
 }
 
 /* the styles for the footer */
+footer {
+	background-color: #931420;
+	font-color: white;
+}
 footer p {
 	text-align: center;
 	padding: 1em 0;
